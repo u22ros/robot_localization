@@ -50,7 +50,7 @@ if(NOT EIGEN3_FOUND)
 endif()
 
 if(NOT MSVC)
-  set_directory_properties(PROPERTIES COMPILE_OPTIONS "-Wall;-Werror")
+  #set_directory_properties(PROPERTIES COMPILE_OPTIONS "-Wall;-Werror")
 endif()
 add_definitions(-DEIGEN_NO_DEBUG -DEIGEN_MPL2_ONLY)
 
